@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Proyecto en Github</title>
+    </head>
+    <body>
+        Boleta: 
+        <input type="text" name="boleta" value=""/>
+        <br>
+        Nombre:
+        <input type="text" name="nombre" value=""/>
+        <br>
+        Grupo:
+        <input type="text" name="grupo" value=""/>
+        <br>
+        Materia:
+        <input type="text" name="materia" value=""/>
+        <br>
+        Fecha:
+        <form method="get" action="http://localhost:8383/ProyectoGithub/index.html">
+        <input type="date" name="fecha">
+        <br>
+        <input type="submit" value="Enviar" name="boleta">
+        
+    </body>
+</html>
